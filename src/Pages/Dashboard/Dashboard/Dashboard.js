@@ -45,7 +45,7 @@ function Dashboard(props) {
       <Toolbar />
       <Divider />
       <NavLink style={{textDecoration: 'none'}} to="/appointment"><Button>Appointment</Button></NavLink>
-      <NavLink style={{textDecoration: 'none'}} to={`${url}/rendering`}><Button>Dashboard</Button></NavLink>
+      <NavLink style={{textDecoration: 'none'}} to="/dashboard"><Button>Dashboard</Button></NavLink>
       {
         admin && <>
           <NavLink style={{textDecoration: 'none'}} to={`${url}/makeAdmin`}><Button>Make Admin</Button></NavLink>
